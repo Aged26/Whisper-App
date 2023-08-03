@@ -22,4 +22,3 @@ if st.button('Transcribe Audio'):
 
 st.header('Play Original Audio File')
 st.audio(audio_file)
-#  python -m streamlit run Module.py
