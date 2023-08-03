@@ -1,12 +1,12 @@
 import streamlit as st
-import whisper
+from Whisper import load_model
 
 #Title
 st.title('TRANSCRIPTION MODULE')
 
 #Upload audio file with Streamlit
 audio_file = st.file_uploader("Upload Audio",type=['wav', 'mp3', 'm4a'])
-model = whisper.load_model('base')
+model = load_model('base')
 st.text('Whisper Model Loaded')
     
 if st.button('Transcribe Audio'):
