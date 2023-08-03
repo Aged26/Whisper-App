@@ -1,2 +1,8 @@
 streamlit==1.25.0
 whisper==1.1.10
+numba
+numpy
+torch
+tqdm
+more-itertools
+tiktoken==0.3.3
