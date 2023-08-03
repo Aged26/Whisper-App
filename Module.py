@@ -1,5 +1,5 @@
 import streamlit as st
-import Whisper
+import whisper
 
 #Title
 st.title('TRANSCRIPTION MODULE')
